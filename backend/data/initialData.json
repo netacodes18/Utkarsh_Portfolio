@@ -1,0 +1,122 @@
+{
+  "profile": {
+    "name": "Utkarsh Pratap",
+    "title": "Full Stack & Software Engineer",
+    "headline": "Full-stack developer experienced in building scalable web applications with Node.js, Spring Boot, Express.js, React.js, MongoDB, SQL, and REST APIs.",
+    "email": "utkarsh.2023ug2037@iiitranchi.ac.in",
+    "phone": "+91 8948983412",
+    "location": "Lucknow, UP, India",
+    "github": "https://github.com/netacodes18",
+    "linkedin": "https://www.linkedin.com/in/utkarsh-pratap-460502251/",
+    "resume": "https://drive.google.com/file/d/1qTS-hA0sumGJvrrohVdTmy8Qd55vSBAz/view?usp=sharing",
+    "twitter": "https://twitter.com",
+    "bio": "Full-stack developer experienced in building scalable web applications with Node.js, Spring Boot, Express.js, React.js, MongoDB, SQL, REST APIs, leveraging AI-assisted development tools to boost engineering productivity. Skilled in secure authentication, database optimization, microservices, RabbitMQ, CI/CD deployment on cloud platforms. GSSoC Open Source Contributor with a strong DSA foundation (800+ problems solved) and proven delivery in Agile, collaborative team environments."
+  },
+  "education": [
+    {
+      "institution": "Indian Institute of Information Technology Ranchi",
+      "degree": "B.Tech - Electronics and Communication Engineering",
+      "period": "Aug 2023 – May 2027",
+      "grade": "CGPA: 8.59",
+      "description": "Coursework: Data Structures & Algorithms, OOP, Operating Systems, System Design Fundamentals, Database Management Systems, Web Development."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Zyla Labs",
+      "role": "Backend Developer Intern",
+      "period": "Sept 2025 – Dec 2025",
+      "location": "Remote",
+      "highlights": [
+        "Developed and maintained scalable RESTful APIs using Node.js, Express.js, and SQL, following modular architecture principles to support core business functionalities and data workflows.",
+        "Implemented secure JWT-based authentication and authorization, integrated third-party services, and incorporated robust request validation and error handling to enhance application security and reliability.",
+        "Designed and optimized complex SQL queries and database operations, improving data retrieval efficiency and supporting reporting and analytics requirements across multiple modules.",
+        "Collaborated with frontend developers to integrate REST APIs, participated in Git-based development workflows, and contributed to feature delivery within an Agile development environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "QuickPay Payment System",
+      "category": "Backend System & Microservices",
+      "techStack": ["Java", "Spring Boot", "RabbitMQ", "MySQL", "REST APIs"],
+      "description": "Engineered a Spring Boot backend supporting P2P (peer-to-peer) money transfers designed for scale with sub-2s real-time alerts.",
+      "highlights": [
+        "Developed a Spring Boot backend supporting P2P (peer-to-peer) money transfers, engineered to reliably handle transactions at scale.",
+        "Integrated RabbitMQ for real-time transaction alerts with sub-2s latency, enabling instant user notifications.",
+        "Optimized backend REST APIs and database interactions to support scalable, high-throughput transaction processing.",
+        "Designed transaction history and mini-statement features to improve transparency and strengthen user trust."
+      ],
+      "githubLink": "https://github.com/netacodes18"
+    },
+    {
+      "title": "Civic Pulse",
+      "category": "Full Stack & Event-Driven Platform",
+      "techStack": ["React.js", "Node.js", "MongoDB", "TailwindCSS", "RabbitMQ", "JWT"],
+      "description": "Architected a React.js/Node.js civic reporting platform featuring JWT-based RBAC, Cloudinary image upload, and event-driven SMTP notifications with 99% latency reduction.",
+      "highlights": [
+        "Architected a React.js/Node.js civic reporting platform; implemented JWT-based RBAC, integrated Cloudinary image uploads, and optimized MongoDB queries through indexing across a responsive TailwindCSS interface.",
+        "Engineered an event-driven architecture using RabbitMQ for asynchronous SMTP dispatch, reducing API latency by 99%; authored REST API unit tests to guarantee reliability.",
+        "Established automated deployment workflows on Vercel and Render; structured decoupled producer-consumer workers with API idempotency, achieving 100% prevention of duplicate reports during network degradation."
+      ],
+      "githubLink": "https://github.com/netacodes18"
+    },
+    {
+      "title": "MicroGig Marketplace",
+      "category": "Full Stack Freelance Marketplace",
+      "techStack": ["React.js", "Node.js", "Express", "MongoDB", "Razorpay", "Cloudinary", "Gemini API"],
+      "description": "Built a 5-stage gig lifecycle marketplace with role-based dashboards, Razorpay HMAC payments, and Gemini AI auto-generated gig descriptions.",
+      "highlights": [
+        "Architected a full-stack freelancer marketplace using React.js frontend and Node.js/Express.js backend with MongoDB schema design supporting freelancer-client workflows, role-based dashboards, and JWT-based authentication with secure session middleware.",
+        "Engineered a 5-stage gig lifecycle state machine (Open→In Progress→Review→Accepted→Completed) with modular REST API endpoints, a notification service, and Razorpay HMAC payment verification for end-to-end transactional integrity.",
+        "Built responsive frontend with reusable React components and TailwindCSS; integrated the Gemini API to enable recruiters to auto-generate gig descriptions from structured inputs and applied Git version control across the collaborative development workflow."
+      ],
+      "githubLink": "https://github.com/netacodes18"
+    }
+  ],
+  "positions": [
+    {
+      "role": "Social Media Lead",
+      "organization": "IIITians Network",
+      "period": "2025 – 2026",
+      "description": "Leading social media strategy, content creation, and digital outreach for IIITians Network to connect students across IIIT institutes nationwide."
+    },
+    {
+      "role": "Open Source Contributor",
+      "organization": "GirlScript Summer of Code (GSSoC)",
+      "period": "May 2025 – July 2025",
+      "description": "Selected as an Open Source Contributor in GSSoC program, contributing to open-source software projects and collaborating with developer communities."
+    }
+  ],
+  "skills": {
+    "Languages": ["C", "C++", "JavaScript (ES6+)", "Python", "TypeScript"],
+    "Frontend & Frameworks": ["React.js", "HTML5", "CSS3", "TailwindCSS"],
+    "Backend & Frameworks": ["Spring Boot", "Node.js", "Express.js", "Firebase", "Microservices", "REST APIs", "RabbitMQ", "API Testing"],
+    "Databases & Data": ["MongoDB", "MySQL", "Redis", "PostgreSQL", "Data Modeling"],
+    "Cloud & DevOps": ["AWS (EC2, EBS, IAM, AMI)", "Docker", "CI/CD", "GitHub Actions"],
+    "Developer & AI Tools": ["Git", "GitHub", "Postman", "VS Code", "IntelliJ IDEA", "Cursor", "Claude", "ChatGPT"],
+    "Core Concepts": ["Data Structures & Algorithms", "OOP", "Full Stack Development", "REST API Design", "Operating Systems", "System Design Fundamentals", "Agile/Scrum", "Problem Solving"]
+  },
+  "certifications": [
+    {
+      "title": "ReactJS & Node.js Certifications",
+      "issuer": "W3Schools",
+      "link": "https://w3schools.com"
+    },
+    {
+      "title": "PostgreSQL for Everybody",
+      "issuer": "University of Michigan",
+      "link": "https://coursera.org"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "800+ Data Structures & Algorithms Problems Solved",
+      "description": "Solved 800+ Data Structures & Algorithms problems across LeetCode, CodeChef, and HackerRank; achieved a LeetCode rating of 1656 and secured Rank 178 in a CodeChef contest."
+    },
+    {
+      "title": "GSSoC Open Source Contributor",
+      "description": "Selected as an Open Source Contributor in the GirlScript Summer of Code (GSSoC) program, contributing to open-source projects and collaborating with the developer community."
+    }
+  ]
+}
