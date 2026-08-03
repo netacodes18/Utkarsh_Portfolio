@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutTechStack from './components/AboutTechStack';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -11,41 +12,28 @@ import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import AboutTechStack from './components/AboutTechStack';
+// Pre-bundled initial data so Vercel renders all sections instantly
+import initialData from '../../backend/data/initialData.json';
 
 export default function App() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState(initialData);
 
   useEffect(() => {
     const fetchPortfolio = async () => {
       try {
         const res = await axios.get('/api/portfolio');
-        if (res.data && res.data.data) {
+        if (res.data && res.data.data && Object.keys(res.data.data).length > 0) {
           setData(res.data.data);
         }
       } catch (err) {
-        console.error('Failed to load portfolio data:', err);
-      } finally {
-        setLoading(false);
+        console.warn('Using bundled portfolio data fallback for static/Vercel deployment:', err);
       }
     };
 
     fetchPortfolio();
   }, []);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-[#FAF9F6] text-slate-700">
-        <div className="flex items-center gap-3">
-          <div className="w-5 h-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
-          <span className="font-semibold text-sm">Loading portfolio...</span>
-        </div>
-      </div>
-    );
-  }
-
-  const { profile, education, experience, projects, positions, skills, achievements, certifications } = data || {};
+  const { profile, education, experience, projects, positions, skills, achievements, certifications } = data || initialData;
 
   return (
     <div className="relative min-h-screen bg-[#FAF9F6] text-slate-900 bg-grid-pattern overflow-x-hidden selection:bg-blue-100 selection:text-blue-700">

@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const Message = require('../models/Message');
 
+const initialData = require('../data/initialData.json');
 const dataFilePath = path.join(__dirname, '../data/initialData.json');
 
 // Helper to read local JSON data
@@ -12,8 +13,8 @@ const getLocalData = () => {
     const rawData = fs.readFileSync(dataFilePath, 'utf8');
     return JSON.parse(rawData);
   } catch (err) {
-    console.error('Error reading local portfolio data:', err);
-    return {};
+    console.error('Error reading local portfolio data, using bundled initialData:', err);
+    return initialData;
   }
 };
 
